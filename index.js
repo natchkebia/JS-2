@@ -3,11 +3,13 @@
 // 2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8;
 
 function first (... numbersArray) {
+    sum = 0
     for(let i of numbersArray) {
         if(i > 0) {
-            console.log(i); 
+            sum += i
         }
     } 
+    return sum; 
 }
 
 let firstrezult = first(2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8)
