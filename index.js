@@ -75,12 +75,11 @@ console.log(maxResult);
 
 let numberType = (number) => {
     if(number % 2 === 0) {
-        return `${number} is even`
-    }   
-    return `${number} is odd`
+        return `${number} ლუწია`
+    }
+    return `${number} კენტია`
 }
-                                        // ! ყველა შემთხვევაში მეორე რეთარნს წერს
-let typeResult = numberType(25)
+let typeResult = numberType(189)
 console.log(typeResult);
 
 
